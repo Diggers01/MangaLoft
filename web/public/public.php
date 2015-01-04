@@ -31,5 +31,3 @@
 
 	$smarty->assign("SiteTitle", $this->title);
 	$smarty->display(PUBLIC_SITE . 'public.tpl');
-	
-	var_dump_pre($_SESSION);

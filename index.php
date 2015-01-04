@@ -37,11 +37,10 @@
     require_once(LIBS . 'Smarty/Smarty.class.php');
     spl_autoload_register('__autoload');
     
-    session_start();
+    Session::init();
     if(!isset($_SESSION['lang'])) {
     	$_SESSION['lang'] = 'FR_fr';
-    }
-    //session_destroy();
+    }Session::destroy();
     
 // Load the Bootstrap!
 	$bootstrap = new Bootstrap();
