@@ -13,6 +13,5 @@ error_reporting(E_ALL);
 					   		 'placeholder' => LOGIN_PASSWORD,
 							 'inputType' => 'password')
 					   );
- var_dump_pre($formObj);
 // Echoing what renderer has rendered.
 	$smarty->assign('formObj', $formObj);

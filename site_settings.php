@@ -16,7 +16,7 @@
 	define('DB_PASS', '');
 	
 // Initial constant variables.
-	define('URL', 'http://mvc/');
+	define('URL', 'http://localhost/projects/mvc/');
 	define('FRAMEWORK', 'framework/');
 	define('LIBS', FRAMEWORK . 'libs/');
 	define('PROJECT_CODE', 'project_code/');

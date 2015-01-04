@@ -8,7 +8,8 @@
 		
 		public function GetPublicFile($Error) {
 			
-			$PageName = Methods::GetPageName();
+			$methods = new Methods;
+			$PageName = $methods->GetPageName();
 			
 			if ($Error == '') {
 				if ($PageName != '') {
