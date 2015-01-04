@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 SALUT SALUT SALUT SALUT SALUT SALUT 
+=======
+ljkg jg lkg jhf kj kjgljg kj m 
+>>>>>>> 3c83dcb7c32831b16b8fa59cec6fa302751ca50c
